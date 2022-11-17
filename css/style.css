@@ -50,11 +50,34 @@ h2 , h3{
     
     
 }
-p {
+section {
 	background-color: gray;
-    border: 2px solid black;
-    padding: 40px 10px 5px 10px; 
-    
-}
+	border: 2px solid black;
+	margin-left: 5px;
+	
+	padding: 10px 10px 5px 10px;
+	margin-top: 20px;
+	overflow: hidden;
+  }
+  
+  a:hover{
+	text-decoration: none;
+	
+  }
+  @media(min-width: 768px){
 
+  }
 
+  @media(min-width: 480px) and (max-width: 575px){
+	#container{
+		width: 85%;
+		margin: auto;
+	}
+
+  }
+  @media(max-width:479px){
+	#container{
+		width: 85%;
+		margin: auto;
+	}
+  }
